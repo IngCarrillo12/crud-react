@@ -4,7 +4,7 @@ import {Formulario} from "./Components/Formulario"
 import {v4 as uuid} from "uuid"
 import { ViewListUsers } from './Components/ViewListUsers'
 function App() {
-const [ListUsers, setListUsers] = useState([{id:uuid(), nombre:"Juan", apellido:"Carrillo"},{id:uuid(), nombre:"Jhom", apellido:"Carro"},{id:uuid(), nombre:"Jose", apellido:"Castro"},])
+const [ListUsers, setListUsers] = useState([{id:uuid(), nombre:"juan", apellido:"carrillo"},{id:uuid(), nombre:"jhon", apellido:"carro"},{id:uuid(), nombre:"jose", apellido:"castro"},])
 const [viewListUsers, setviewListUsers] = useState(false)
   return (
     <div className=' container flex flex-col items-center justify-center h-screen'>
